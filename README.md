@@ -1,0 +1,1 @@
+[Макет Figma](https://www.figma.com/design/NXEibpYo7WOBDdI8igPNkP/Rentiz?node-id=0-1&t=FVcC5FibvWhVzkD8-0)
