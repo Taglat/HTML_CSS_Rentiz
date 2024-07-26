@@ -1,0 +1,14 @@
+.h2 {
+	font-weight: 600;
+	font-size: clamp(1.875rem, 1.548rem + 1.64vw, 3rem);
+	line-height: 1.26;
+	text-transform: capitalize;
+	color: #ffffff;
+}
+
+.p {
+	font-weight: 400;
+	font-size: 1.8rem;
+	line-height: 1.7;
+	color: var(--text-color);
+}
