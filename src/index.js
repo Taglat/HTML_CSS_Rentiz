@@ -1,6 +1,6 @@
 import './index.html';
 import './index.scss';
-import './scripts/swiper';
+import Swiper from 'swiper';
 
 const hamburger = document.querySelector('.hamburger');
 const nav = document.querySelector('.nav');
@@ -30,3 +30,23 @@ if (filter) {
 		}); 
 	})
 }
+
+const popularSlider = new Swiper('.popular-slider', {
+	spaceBetween: 20,
+	slidesPerView: 1,
+	breakpoints: {
+		992: {
+			slidesPerView: 3,
+		},
+		660: {
+			slidesPerView: 2,
+		}
+	}
+});
+
+document.querySelector('.popular-slider-next').addEventListener('click', () => {
+    popularSlider.slideNext();
+});
+document.querySelector('.popular-slider-prev').addEventListener('click', () => {
+    popularSlider.slidePrev();
+});
