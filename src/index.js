@@ -1,5 +1,6 @@
 import './index.html';
 import './index.scss';
+import './scripts/swiper';
 
 const hamburger = document.querySelector('.hamburger');
 const nav = document.querySelector('.nav');

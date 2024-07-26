@@ -182,7 +182,7 @@ body._lock {
 
     &__deco {
 		position: absolute;
-        bottom: -150px;
+        bottom: -120px;
 		right: 0;
 		z-index: -1;
 		@media (max-width: 576px) {
@@ -354,4 +354,24 @@ body._lock {
 			}
 		}
     }
+}
+
+.feature {
+	padding: clamp(1.25rem, -0.023rem + 15vw, 5.625rem) 0;
+
+    &__container {}
+    h2 {}
+    &__box {
+		margin-top: clamp(1.875rem, 1.42rem + 2.27vw, 3.438rem);
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        align-items: center;
+        overflow: auto;
+        padding-right: 15px;
+    }
+    &__item {
+        flex: 0 0 auto;
+    }
+    &__img {}
 }
